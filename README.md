@@ -14,7 +14,7 @@ This package provides a lightweight, dependency-free utility for generating Univ
 Import the `generateULID` function from the package and use it to generate a ULID:
 
 ```typescript
-import { generateULID } from 'jsr:@yi/ulid@1';
+import { generateULID } from '@yi/ulid';
 
 const ulid = generateULID();
 console.log(ulid); // Example output: 01F8MECHZX3TBDSZ7XRADM79XE
