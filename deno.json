@@ -1,0 +1,5 @@
+{
+    "name": "@yi/ulid",
+    "version": "0.1.0",
+    "exports": "./ulid.ts"
+  }
