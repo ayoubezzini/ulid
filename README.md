@@ -9,15 +9,6 @@ This package provides a lightweight, dependency-free utility for generating Univ
 - **Universally Unique:** Generates ULIDs that are unique across time and space.
 - **Lexicographically Sortable:** ULIDs are sortable by their creation time.
 
-## Installation
-
-To install the TypeScript ULID Generator, use the following command:
-
-```bash
-deno run jsr:@yi/ulid@1
-
-```
-
 ## Usage
 
 Import the `generateULID` function from the package and use it to generate a ULID:
