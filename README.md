@@ -14,13 +14,8 @@ This package provides a lightweight, dependency-free utility for generating Univ
 To install the TypeScript ULID Generator, use the following command:
 
 ```bash
-npm install ts-ulid-generator
-````
+deno run jsr:@yi/ulid@1
 
-Or, if you prefer using Yarn:
-
-```bash
-yarn add ts-ulid-generator
 ```
 
 ## Usage
@@ -28,7 +23,7 @@ yarn add ts-ulid-generator
 Import the `generateULID` function from the package and use it to generate a ULID:
 
 ```typescript
-import { generateULID } from 'ts-ulid-generator';
+import { generateULID } from 'jsr:@yi/ulid@1';
 
 const ulid = generateULID();
 console.log(ulid); // Example output: 01F8MECHZX3TBDSZ7XRADM79XE
