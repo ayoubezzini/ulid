@@ -26,7 +26,7 @@ console.log(ulid); // Example output: 01F8MECHZX3TBDSZ7XRADM79XE
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENCE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
 ## Acknowledgments
 
