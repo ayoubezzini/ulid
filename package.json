@@ -1,0 +1,36 @@
+{
+  "name": "@yiiy/ulid",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This package provides a lightweight, dependency-free utility for generating Universally Unique Lexicographically Sortable Identifiers (ULIDs) in TypeScript applications. ULIDs offer a sortable alternative to UUIDs, combining a timestamp with a series of random characters in a way that can be sorted lexicographically.",
+  "main": "ulid.ts",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "build": "tsup",
+    "jsr": "npx jsr publish",
+    "pub": "npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayoubezzini/ulid.git"
+  },
+  "keywords": [
+    "ulid",
+    "identifier",
+    "unique identifier",
+    "id"
+  ],
+  "author": "Yi",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "bugs": {
+    "url": "https://github.com/ayoubezzini/ulid/issues"
+  },
+  "homepage": "https://github.com/ayoubezzini/ulid#readme"
+}
