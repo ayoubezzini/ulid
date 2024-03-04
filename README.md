@@ -22,8 +22,7 @@ console.log(ulid); // Example output: 01F8MECHZX3TBDSZ7XRADM79XE
 
 ## API
 
-`generateULID(): string`
-Generates and returns a new ULID as a string.
+- `generateULID(): string` Generates and returns a new ULID as a string.
 
 ## License
 
