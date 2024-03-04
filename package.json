@@ -7,6 +7,9 @@
   "directories": {
     "example": "example"
   },
+  "publishConfig": {
+    "@ayoubezzini:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "tsup",
     "jsr": "npx jsr publish",
